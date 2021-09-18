@@ -16,13 +16,12 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="resource/js/common.js"></script>
-    <script src="resource/js/index.js"></script>
   </head>
   <body>
     <div class="header">
       <div class="header__container">
-        <img src="resource/img/header-logo-test.png" />
-        <p>| 유산기부 캠페인</p>
+        <a href="https://www.miral.org"><img src="resource/img/header-logo-test.png" /></a>
+        <p>유산기부 캠페인</p>
       </div>
     </div>
     <div class="main">
@@ -30,17 +29,18 @@
         <div class="main__container">
           <p class="s01__title">당신의 숭고한 인생,<br><span>유산기부</span>로<br>영원히 기억됩니다.</p>
           <div class="s01__btn">
-            <p>신현국 후원자 이야기</p>
-            <p>상담하기</p>
-            <!-- <img src="resource/img/hand@2x.png" /> -->
+            <p><a href="https://www.youtube.com/watch?v=gWXdzlIQ-YE&list=TLGGBnLciC-8qN4xODA5MjAyMQ" target="blank">신현국 후원자 이야기</a></p>
+            <p id="goConsulting">상담하기</p>
           </div>
         </div>
       </div>
       <div class="main__section s02">
         <div class="main__container">
-          <p class="main__title">신현국 후원자 이야기</p>
-          <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
-          <p class="main__subject"><strong>“아직 우리 할 일 많이 남았어요.”</strong></p>
+          <div class="dot__container">
+            <p class="main__title">신현국 후원자 이야기</p>
+            <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          </div>
+          <p class="main__subject pt"><strong>“아직 우리 할 일 많이 남았어요.”</strong></p>
           <p class="main__subject pb">“이 나라에 아무도 소외되는 일 없게 해야죠. 비록 장애가 있다고 하더라더요.”</p>
           <p class="main__subject02"><strong>밀알의 네번째 유산기부자 신현국 님</strong></p>
           <p class="main__subject02 pb">경기도 광주 부동산 유산기부</p>
@@ -60,14 +60,16 @@
       </div>
       <div class="main__section s03">
         <div class="main__container">
-          <p class="main__title">밀알복지재단 특별 후원팀</p>
-          <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          <div class="dot__container">
+            <p class="main__title">밀알복지재단 특별 후원팀</p>
+            <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          </div>
           <div class="main__textbox box__gray">
-            <p class="textbox__title">밀알복지재단 특별후원팀</p>
+            <p class="textbox__title pc">밀알복지재단 특별후원팀</p>
             <p class="textbox__subject">“안녕하세요. 밀알복지재단 특별후원팀 김경호 팀장입니다.”</p>
             <i class="textbox__line"></i>
-            <p class="textbox__subject">수 많은 후원자님과 상담을 통해 깨달은 한 가지는 유산기부란 후원자님의 자산이 아닌 당신 자신을 주시는 일이었다는 겁니다. 평생 일구어 오신 소중한 자신과 후원자님의 삶과 철학이 잘 이루어져 후대에도 전해질수 있도록 맞춤형 상담을 통해 안내 드립니다.</p>
-            <p class="textbox__info">전화 070-7462-9010 | 1833-4420 이메일 hkkim@miral.org</p>
+            <p class="textbox__subject pt">수 많은 후원자님과 상담을 통해 깨달은 한 가지는 유산기부란 후원자님의 자산이 아닌 당신 자신을 주시는 일이었다는 겁니다. 평생 일구어 오신 소중한 자신과 후원자님의 삶과 철학이 잘 이루어져 후대에도 전해질수 있도록 맞춤형 상담을 통해 안내 드립니다.</p>
+            <p class="textbox__info">전화 070-7462-9010 | 1833-4484 <br class="mobile">이메일 hkkim@miral.org</p>
             <img src="resource/img/teamleader-2@2x.png" />
           </div>  
           <p class="main__textbox box__green">유산기부 안내서를 받아보세요</p>
@@ -88,7 +90,7 @@
                 </div>
               </div>
               <div class="right__item item__agree">
-                <p class="item__left"></p>
+                <p class="item__left pc"></p>
                 <div class="item__right agree__right">
                   <div class="agree__text">
                     <p>휴대전화로 연락 드린 후 안내서를 발송할 예정입니다.</p>
@@ -101,9 +103,9 @@
                 </div>
               </div>
               <div class="right__item item__btn">
-                <p class="item__left"></p>
+                <p class="item__left pc"></p>
                 <div class="item__right">
-                  <p class="right__btn">안내서 무료 신청</p>
+                  <p class="right__btn" id="send1">안내서 무료 신청</p>
                 </div>
               </div>
             </div>
@@ -112,8 +114,10 @@
       </div>
       <div class="main__section s04">
         <div class="main__container">
-          <p class="main__title">유산기부에 관해 궁금한 것은 무엇이든 물어보세요.</p>
-          <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          <div class="dot__container">
+            <p class="main__title">유산기부에 관해 궁금한 것은 무엇이든 물어보세요.</p>
+            <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          </div>
           <div class="section__qa">
             <div class="qa__item">
               <div class="qa__question">
@@ -121,24 +125,12 @@
                 <p>유산기부를 재산의 전부가 아닌 일부만 하는 것도 가능한가요?</p>
               </div>
               <div class="qa__answer">
-                <img src="resource/img/A@2x.png">
-                <div>
-                  <p class="answer__title">네 일부도 가능합니다.</p>
-                  <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="qa__item">
-              <div class="qa__question">
-                <img src="resource/img/Q@2x.png">
-                <p>유산기부를 재산의 전부가 아닌 일부만 하는 것도 가능한가요?</p>
-              </div>
-              <div class="qa__answer">
-                <img src="resource/img/A@2x.png">
-                <div>
-                  <p class="answer__title">네 일부도 가능합니다.</p>
-                  <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
+                <div class="answer__container">
+                  <img src="resource/img/A@2x.png">
+                  <div>
+                    <p class="answer__title">네 일부도 가능합니다.</p>
+                    <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -149,27 +141,67 @@
                 <p>유산기부를 재산의 전부가 아닌 일부만 하는 것도 가능한가요?</p>
               </div>
               <div class="qa__answer">
-                <img src="resource/img/A@2x.png">
-                <div>
-                  <p class="answer__title">네 일부도 가능합니다.</p>
-                  <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
+                <div class="answer__container">
+                  <img src="resource/img/A@2x.png">
+                  <div>
+                    <p class="answer__title">네 일부도 가능합니다.</p>
+                    <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="qa__item">
+              <div class="qa__question">
+                <img src="resource/img/Q@2x.png">
+                <p>유산기부를 재산의 전부가 아닌 일부만 하는 것도 가능한가요?</p>
+              </div>
+              <div class="qa__answer">
+                <div class="answer__container">
+                  <img src="resource/img/A@2x.png">
+                  <div>
+                    <p class="answer__title">네 일부도 가능합니다.</p>
+                    <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="qa__item">
+              <div class="qa__question">
+                <img src="resource/img/Q@2x.png">
+                <p>유산기부를 재산의 전부가 아닌 일부만 하는 것도 가능한가요?</p>
+              </div>
+              <div class="qa__answer">
+                <div class="answer__container">
+                  <img src="resource/img/A@2x.png">
+                  <div>
+                    <p class="answer__subject">보통 유산기부를 '전 재산을 기부했다'는 뉴스나 기사로 처음 알게 되시면서 유산기부를 하면<br>전부를 후원해야한다는 부담감을 느끼시는 분들도 있으신데요.<br>후원자님의 의사에 따라 기부해주시면 됩니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
       <div class="main__section s05">
         <div class="main__container">
-          <p class="main__title">유산기부 종류</p>
-          <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
-          <img class="main__layer" src="resource/img/Layer23@2x.png" />
+          <div class="dot__container">
+            <p class="main__title">유산기부 종류</p>
+            <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          </div>
+          <img class="main__layer pc" src="resource/img/Layer23@2x.png" />
+          <img class="main__layer mobile" src="resource/img/Layer23-m@2x.png" />
         </div>
       </div>
       <div class="main__section s06">
         <div class="main__container">
-          <p class="main__title">파트너 소개</p>
-          <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          <div class="dot__container">
+            <p class="main__title">파트너 소개</p>
+            <p class="main__dot"><img src="resource/img/dot@2x.png" /></p>
+          </div>
           <p class="main__subject">투명하고 안전한 기부절차와 기부금 집행을 위해 법률, 세무, 회계, 금융 등 각 분야의 전문가 그룹과 함께합니다.</p>
           <div class="section__partner">
             <div class="partner__item">
@@ -195,7 +227,7 @@
           </div>
         </div>
       </div>
-      <div class="main__section s07">
+      <div class="main__section s07 pc">
         <div class="main__container">
           <img class="main__book" src="resource/img/book@2x.png" />
           <div class="main__left">
@@ -216,9 +248,32 @@
                 <p>휴대<br>전화번호</p><input type="tel" id="tel2">
               </div>
             </form>
-            <div class="right__btn">
+            <div class="right__btn" id="send2">
               안내서<br>무료신청
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__section s07 mobile">
+        <div class="main__container">
+          <div class="main__left">
+            <img src="resource/img/bookcover@2x.png" />
+          </div>
+          <div class="main__right">
+            <form class="right__form">
+              <div class="form__item">
+                <p>이름</p><input type="text" id="name3">
+              </div>
+              <div class="form__item">
+                <p>휴대<br>전화번호</p><input type="tel" id="tel3">
+              </div>
+              <a class="left__middle" href="tel:1833-4484">1833-4484</a>
+              <p class="left__bottom">상담시간 평일 오전9시 ~ 오후6시</p>
+              <p class="right__title">밀알 유산기부 안내서</p>
+            </form>
+          </div>
+          <div class="right__btn" id="send3">
+            안내서<br>무료<br>신청
           </div>
         </div>
       </div>
@@ -234,22 +289,28 @@
       <div class="main__section s09">
         <div class="main__container">
           <div class="footer__top">
-            <div class="top__left">
+            <div class="top__left pc">
               <a>밀알복지재단 소개</a>
               <a>이용 약관</a>
               <a><strong>개인정보처리방침</strong></a>
               <a>이메일무단수집거부</a>
               <a>오시는 길</a>
             </div>
-            <div class="top__right">
+            <div class="top__right pc-flex">
               <a><img src="resource/img/facebook@2x.png" /></a>
               <a><img src="resource/img/insta@2x.png" /></a>
               <a><img src="resource/img/blog@2x.png" /></a>
               <a><img src="resource/img/p@2x.png" /></a>
-              <div class="right__family"><span>FAMILY SITE</span><img src="resource/img/plus.svg" /></div>
+              <div class="right__family pc"><span>FAMILY SITE</span><img src="resource/img/plus.svg" /></div>
+            </div>
+            <div class="top__right mobile">
+              <a><img src="resource/img/facebook-m@2x.png" /></a>
+              <a><img src="resource/img/insta-m@2x.png" /></a>
+              <a><img src="resource/img/blog-m@2x.png" /></a>
+              <a><img src="resource/img/p-m@2x.png" /></a>
             </div>
           </div>
-          <div class="footer__bottom">
+          <div class="footer__bottom pc">
             <div class="bottom__left">
               <p>사회복지법인 밀알복지재단 | 대표자 홍정길 | 사업자등록번호 213-82-04651</p>
               <p>(우)06349 서울특별시 강남구 밤고개로 1길34 (수서동)</p>
@@ -262,9 +323,15 @@
               <p>기부금 영수증 등 후원내역 관리를 위해서 계좌입금 후 연락부탁드립니다.</p>
             </div>
           </div>
+          <div class="footer__bottom mobile">
+              <p>사회복지법인 밀알복지재단</p>
+              <p><span>대표자 홍정길</span><span>사업자등록번호 213-82-04651</span><span>Tel.02-3411-4664</span></p>
+              <p class="pb">(우)06349 서울특별시 강남구 밤고개로 1길34 (수서동)</p>
+              <p>COPYRIGHT@2103 MIRALALL RIGHTS RESERVED.</p>
+          </div>
         </div>
       </div>
-      <div class="main__section s10">
+      <div class="main__section s10 pc">
         <img src="resource/img/Layer20@2x.png" />
       </div>
     </div>

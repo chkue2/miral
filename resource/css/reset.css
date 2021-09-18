@@ -39,8 +39,12 @@ select {
 }
 select::-ms-expand { display: none; }
 
-.mobile{display: none;}
+.pc{display: block !important;}
+.pc-flex{display: flex !important;}
+.mobile{display: none !important;}
 
 @media all and (max-width: 768px){
-    .mobile{display: block;}
+    .pc{display: none !important;}
+    .pc-flex{display: none !important;}
+    .mobile{display: block !important;}
 }
