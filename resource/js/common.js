@@ -22,7 +22,7 @@ $(document).on('click', '#send1', function(){
   const name = $('#name1').val();
   const tel = `${$('tel11').val()}${$('tel12').val()}`;
   if(!$('#agree1').is(':checked')) {
-    alert('동의 필요');
+    alert('정보 수집, 이용에 동의해주세요.');
     return false;
   }
 });
@@ -31,7 +31,7 @@ $(document).on('click', '#send2', function(){
   const name = $('#name2').val();
   const tel = $('#tel2').val();
   if(!$('#agree2').is(':checked')) {
-    alert('동의 필요');
+    alert('정보 수집, 이용에 동의해주세요.');
     return false;
   }
 });
@@ -40,7 +40,7 @@ $(document).on('click', '#send3', function(){
   const name = $('#name3').val();
   const tel = $('#tel3').val();
   if(!$('#agree2').is(':checked')) {
-    alert('동의 필요');
+    alert('정보 수집, 이용에 동의해주세요.');
     return false;
   }
 });
