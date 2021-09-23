@@ -20,7 +20,7 @@ $(document).on('click', '#goConsulting', function(){
 
 $(document).on('click', '#send1', function(){
   const name = $('#name1').val();
-  const tel = `${$('tel11').val()}${$('tel12').val()}`;
+  const tel = $('#tel1').val();
   if(!$('#agree1').is(':checked')) {
     alert('정보 수집, 이용에 동의해주세요.');
     return false;
