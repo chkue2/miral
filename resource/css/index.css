@@ -236,12 +236,12 @@
   .main .main__section.s04 .section__qa{margin-top: 0px; padding: 0px 17px;}
   .main .main__section.s04 .section__qa .qa__question{border: none; height: 30px;}
   .main .main__section.s04 .section__qa .qa__question img{width: 12px; margin-left: 6px;}
-  .main .main__section.s04 .section__qa .qa__question p{ padding-left: 5px; font-size: 8px; line-height: 22px;}
+  .main .main__section.s04 .section__qa .qa__question p{ padding-left: 5px; font-size: 8px; line-height: unset; letter-spacing: 0;}
   .main .main__section.s04 .section__qa .qa__answer{padding-top: 7px; padding-bottom: 9px; align-items: flex-start;}
   .main .main__section.s04 .section__qa .qa__answer img{width: 12px; margin-top: 6px;}
   .main .main__section.s04 .section__qa .qa__answer div{padding-left: 5px; }
   .main .main__section.s04 .section__qa .qa__answer div .answer__title{font-size: 8px; line-height: 22px;}
-  .main .main__section.s04 .section__qa .qa__answer div .answer__subject{font-size: 8px; color: #333333; line-height: 18px;}
+  .main .main__section.s04 .section__qa .qa__answer div .answer__subject{font-size: 8px; color: #333333; line-height: unset; letter-spacing: 0;}
 
   .main .main__section.s05{padding-top: 0;}
   .main .main__section.s05 .main__container{text-align: center;}
