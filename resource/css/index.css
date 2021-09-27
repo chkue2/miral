@@ -119,7 +119,7 @@
 .main .main__section.s06 .section__partner{padding-top: 36px; display: flex; justify-content: space-between; padding-bottom: 172px;}
 .main .main__section.s06 .section__partner .partner__item{width: 288px; height: 229px; display: flex; flex-direction: column; align-items: center; border: 1px solid #DDDDDD; cursor: pointer;}
 .main .main__section.s06 .section__partner .partner__item:hover{border-bottom: 4px solid #065348;}
-.main .main__section.s06 .section__partner .partner__item img{width: 208px; padding-top: 64px; padding-bottom: 35px;}
+.main .main__section.s06 .section__partner .partner__item img{width: 208px; height: 145px; padding-top: 64px; padding-bottom: 35px;}
 .main .main__section.s06 .section__partner .partner__item .item__title{font-size: 22px; color: #065348;}
 .main .main__section.s06 .section__partner .partner__item .item__name{font-size: 22px; color: #666666;}
 
