@@ -268,7 +268,7 @@
   .main .main__section.s07 .main__container .main__right .left__middle{font-size: 28px;line-height: unset; color: #065348; text-decoration: none; font-weight: 800; text-align: center;}
   .main .main__section.s07 .main__container .main__right .left__bottom{font-size: 12px; color: #065348; text-align: center;}
   .main .main__section.s07 .main__container .main__right{display: flex; align-items: center; justify-content: flex-end;}
-  .main .main__section.s07 .main__container .main__right .right__title{font-size: 18px; line-height: unset;}
+  .main .main__section.s07 .main__container .main__right .right__title{font-size: 18px; line-height: unset; margin-right: 0;}
   .main .main__section.s07 .main__container .main__right .right__form{display: flex; flex-direction: column;}
   .main .main__section.s07 .main__container .main__right .right__form .form__item{display: flex; justify-content: space-between; align-items: center;}
   .main .main__section.s07 .main__container .main__right .right__form .form__item + .form__item{margin-top: 2px;}
