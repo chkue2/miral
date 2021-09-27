@@ -125,7 +125,7 @@
 
 .main .main__section.s07{ border-top: 1px solid #0A8E36; position: sticky; position: -webkit-sticky; bottom: 42px; background-color: #ffffff;}
 .main .main__section.s07 .main__container{height: 188px; position: relative; display: flex; justify-content: space-between; align-items: center;}
-.main .main__section.s07 .main__container .main__book{width: 230px; position: absolute; left: 48%; transform: translateX(-50%);bottom: 18px;}
+.main .main__section.s07 .main__container .main__book{width: 205px; position: absolute; left: 48%; transform: translateX(-50%);bottom: 5px;}
 .main .main__section.s07 .main__container .main__left{display: flex; align-items: center;}
 .main .main__section.s07 .main__container .main__left img{width: 117px; height: 22px; margin-right: 25px;}
 .main .main__section.s07 .main__container .main__left .left__top{font-size: 26px; font-weight: 300; color: #065348;}
@@ -133,7 +133,7 @@
 .main .main__section.s07 .main__container .main__left .left__middle{font-size: 60px; font-weight: 800; color: #065348; line-height: 40px; text-decoration: none;}
 .main .main__section.s07 .main__container .main__left .left__bottom{font-size: 26px; font-weight: 300; color: #065348; padding-top: 12px;}
 .main .main__section.s07 .main__container .main__right{display: flex; align-items: center; justify-content: flex-end;}
-.main .main__section.s07 .main__container .main__right .right__title{font-size: 32px; font-weight: 800; line-height: 48px; text-align: center; color: #065348;}
+.main .main__section.s07 .main__container .main__right .right__title{font-size: 32px; font-weight: 800; line-height: 48px; text-align: center; color: #065348; margin-right: 30px;}
 .main .main__section.s07 .main__container .main__right .right__form{display: flex; flex-direction: column;}
 .main .main__section.s07 .main__container .main__right .right__form .form__item{display: flex; justify-content: space-between; align-items: center;}
 .main .main__section.s07 .main__container .main__right .right__form .form__item + .form__item{margin-top: 17px;}
