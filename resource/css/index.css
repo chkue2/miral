@@ -264,7 +264,7 @@
   .main .main__section.s07{ bottom: 30px;}
   .main .main__section.s07 .main__container{height: auto; position: relative; display: flex; justify-content: space-between; align-items: center; padding: 5px 17px 3px 17px;}
   .main .main__section.s07 .main__container .main__left{display: flex; align-items: center;}
-  .main .main__section.s07 .main__container .main__left img{width: 82px; height: 115px; margin-right: 25px;}
+  .main .main__section.s07 .main__container .main__left img{width: 82px; height: 115px; margin-right: 10px;}
   .main .main__section.s07 .main__container .main__right .left__middle{font-size: 28px;line-height: unset; color: #065348; text-decoration: none; font-weight: 800; text-align: center;}
   .main .main__section.s07 .main__container .main__right .left__bottom{font-size: 12px; color: #065348; text-align: center;}
   .main .main__section.s07 .main__container .main__right{display: flex; align-items: center; justify-content: flex-end;}
@@ -274,7 +274,7 @@
   .main .main__section.s07 .main__container .main__right .right__form .form__item + .form__item{margin-top: 2px;}
   .main .main__section.s07 .main__container .main__right .right__form .form__item p{flex: 1; font-size: 9px; text-align: right; padding-right: 3px;}
   .main .main__section.s07 .main__container .main__right .right__form .form__item input{width: 111px; height: 19px; line-height: 19px; background-color: #f4f4f4;}
-  .main .main__section.s07 .main__container .right__btn{width: 85px; height: 115px; display: flex; align-items: center; justify-content: center; background-color: #065348; cursor: pointer; font-size: 13px; font-weight: 800; color: #ffffff; text-align: center; margin-left: 16px;}
+  .main .main__section.s07 .main__container .right__btn{width: 85px; height: 115px; display: flex; align-items: center; justify-content: center; background-color: #065348; cursor: pointer; font-size: 13px; font-weight: 800; color: #ffffff; text-align: center; margin-left: 10px;}
 
   .main .main__section.s08 .main__container{height: 30px; display: flex; justify-content: flex-end; align-items: center; padding: 0px 17px;}
   .main .main__section.s08 .main__container p{font-size: 7px;}
