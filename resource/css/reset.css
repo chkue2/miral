@@ -44,6 +44,7 @@ select::-ms-expand { display: none; }
 .mobile{display: none !important;}
 
 @media all and (max-width: 768px){
+    *{letter-spacing:  -1px;}
     .pc{display: none !important;}
     .pc-flex{display: none !important;}
     .mobile{display: block !important;}
